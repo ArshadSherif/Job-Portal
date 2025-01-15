@@ -6,10 +6,10 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyByUMIyo54nyupVE9TRnJZycxLP1w8mq4c",
-  authDomain: "jobportal-e7dbd.firebaseapp.com",
-  projectId: "jobportal-e7dbd",
-  storageBucket: "jobportal-e7dbd.firebasestorage.app",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: "1022191345646",
   appId: "1:1022191345646:web:4f0ae4bd7def601980f8ff"
 };
