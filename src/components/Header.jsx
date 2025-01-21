@@ -35,7 +35,7 @@ const Header = () => {
     <>
       <nav className="flex items-center justify-between p-4 ">
         <Link>
-          <img src="../../public/companies/logo.png" className="h-20 " />
+          <img src="https://gedw8ocoh9cdt5ei.public.blob.vercel-storage.com/logo-GoEPnIM0KqqPcIomMKmjyjtBHYLEJY.png" className="h-20 " />
         </Link>
 
         <div className="flex gap-8">
@@ -76,7 +76,7 @@ const Header = () => {
                 <UserButton.Link
                   label="Saved jobs"
                   labelIcon={<Heart size={20} />}
-                  href="/Saved-jobs"
+                  href="/saved-jobs"
                 />
               </UserButton.MenuItems>
             </UserButton>

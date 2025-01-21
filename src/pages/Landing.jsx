@@ -28,7 +28,7 @@ const Landing = () => {
             {" "}
             and get{" "}
             <img
-              src="../../public/companies/logo.png"
+              src="https://gedw8ocoh9cdt5ei.public.blob.vercel-storage.com/logo-GoEPnIM0KqqPcIomMKmjyjtBHYLEJY.png"
               alt="Hirrd logo"
               className="h-14 sm:h-24 lg:h-32"
             />
@@ -69,7 +69,7 @@ const Landing = () => {
 
       {/* banner */}
 
-      <img src="../../public/companies/banner.jpeg" className="w-full" />
+      <img src="https://gedw8ocoh9cdt5ei.public.blob.vercel-storage.com/banner-5eXcem0XZqo6XNFw9tYLxmmSmigs4j.jpeg" className="w-full" />
 
       <section className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {/* cards */}

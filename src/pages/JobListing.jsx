@@ -37,7 +37,7 @@ export const JobListing = () => {
 
   //** FOR PAGINATION START */
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 9;
+  const pageSize = 6;
   const totalJobs = jobs.length;
 
   const paginatedJobs = jobs.slice(
