@@ -98,7 +98,7 @@ export const Job = () => {
         </div>
 
         <div className="flex gap-2">
-          <Briefcase /> {job?.applications?.length} Applicants
+          <Briefcase /> {applications?.length} Applicants
         </div>
 
         <div className="flex gap-2">
